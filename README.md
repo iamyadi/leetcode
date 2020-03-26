@@ -9,7 +9,7 @@
 | 日期      | 答案 |
 | ----------- | ----------- |
 | 2020.3.14      | [leedcode1_twoSum.js](./leedcode1_twoSum.js)|
-
+| 2020.3.21      | [addTwoNumbers.js](./2_addTwoNumbers.js)|
 
 
 
