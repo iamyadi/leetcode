@@ -11,3 +11,8 @@
 | 2020.3.14 | [twoSum.js](./leedcode1_twoSum.js)                             |
 | 2020.3.21 | [addTwoNumbers.js](./2_addTwoNumbers.js)                       |
 | 2020.3.28 | [lengthOfLongestSubstring.js](./3_lengthOfLongestSubstring.js) |
+| 2020.4.4 | 待补 |
+| 2020.4.11 | 待补 |
+| 2020.4.18 | 待补 |
+| 2020.4.25 | 待补 |
+| 2020.5.2 | 待补 |
