@@ -5,7 +5,7 @@
  * Author: Yanni Zhang
  * Email : iamyadi@126.com
  * ---------
- * Last Modified: Tuesday, March 31st 2020, 6:36:32 pm
+ * Last Modified: Sunday, May 3rd 2020, 11:53:18 am
  * Modified By: Yanni Zhang (iamyadi@126.com>)
  * ---------
  * Description:
@@ -17,7 +17,7 @@
  * 题目：给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。
  */
 // 方法一，该方法中间字符串操作较多，运行时间较长
-var lengthOfLongestSubstring = function(s) {
+var lengthOfLongestSubstring = function (s) {
   if (s.length < 2) {
     return s.length;
   }
@@ -47,4 +47,21 @@ var lengthOfLongestSubstring = function(s) {
   return Math.max(maxLengthSubstring.length, tempSubstring.length);
 };
 lengthOfLongestSubstring("abcabcbb");
-// 方法二，该方法不再
+// 方法二
+var lengthOfLongestSubstring = function (s) {
+  let arr = [];
+  let result = 0;
+  for (let i = 0; i < s.length; i++) {
+    let index = arr.indexOf(s[i]);
+    if (index !== -1) {
+      result = Math.max(result, arr.length);
+      arr = arr.slice(index + 1);
+      arr.push(s[i]);
+    } else {
+      //没有匹配到
+      arr.push(s[i]);
+    }
+  }
+  result = Math.max(result, arr.length);
+  return result;
+};
