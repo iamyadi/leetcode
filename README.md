@@ -17,6 +17,6 @@
 | 2020.4.25 | done| [convertArrayToLink](./convertArrayToLink.js) | 无，将数组转变为链表
 | 2020.5.2 | done| [levelOrder](./102_levelOrder.js) | [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)| 二叉树广度优先遍历
 | 2020.5.9 | done| [ZigZagConversion](./6_ZigZagConversion.js) | [6. ZigZag Conversion](https://leetcode-cn.com/problems/zigzag-conversion/)|
-| 2020.5.16 | |  | |
+| 2020.5.16 | done | [7_ReverseInteger](./7_ReverseInteger.js) |[7. Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/) |
 | 2020.5.23 | |  | |
 | 2020.5.30 | |  | |
